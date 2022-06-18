@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/moveImageFragment">
+
+    <fragment
+        android:id="@+id/moveImageFragment"
+        android:name="com.kamaboko.imageavoid.moveImage.MoveImageFragment"
+        android:label="move_image_fragment"
+        tools:layout="@layout/move_image_fragment" />
+</navigation>
