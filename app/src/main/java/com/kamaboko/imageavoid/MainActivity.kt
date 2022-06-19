@@ -13,12 +13,11 @@ class MainActivity : AppCompatActivity() {
 
         supportActionBar?.title=""
 
-        // Test App ID
+        // Admob
         MobileAds.initialize( this )
-
-//        val adView: AdView = findViewById(R.id.adBanner)
-//        val adRequest = AdRequest.Builder().build()
-//        adView.loadAd(adRequest)
+        val adView: AdView = findViewById(R.id.adBanner)
+        val adRequest = AdRequest.Builder().build()
+        adView.loadAd(adRequest)
 
     }
 }
